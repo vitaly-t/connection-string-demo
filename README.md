@@ -4,8 +4,8 @@ It shows proper way of generating connection strings in a complex and secure env
 
 The demo offers two identical implementations:
 
- * [JavaScript implementation](./src/JavaScript)
- * [TypeScript implementation](./src/TypeScript)
+ * [JavaScript implementation](./src/JavaScript/connection.js)
+ * [TypeScript implementation](./src/TypeScript/connection.js)
 
 It generates a connection string for [mongodb], as a good example of handling multi-host connections. 
 
