@@ -12,14 +12,14 @@ import * as config from '../config.json';
 export function getConnection(passwordHash?: boolean | string): string {
     const hosts = config.hosts.map(ConnectionString.parseHost); // parsing hosts
 
-    // some options, as supported by the driver:
+    // some static options, as supported by the driver:
     const params = {
         connectTimeoutMS: 5000,
         replicaSet: 'myRepl',
         ssl: true
     };
 
-    const cs = new ConnectionString('mongodb:///my-db-name');
+    const cs = new ConnectionString('mongodb:///static-db-name');
     cs.setDefaults({user: config.user, password: config.password, hosts, params});
 
     return cs.toString({passwordHash});
