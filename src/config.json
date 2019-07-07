@@ -1,0 +1,8 @@
+{
+  "hosts": [
+    "amazon.ser-015.back-up.net:23701",
+    "aws-prod17.primary.com:8009",
+    "240.015.234.77:1880",
+    ""
+  ]
+}
