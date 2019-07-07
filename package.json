@@ -1,7 +1,7 @@
 {
-  "name": "$name$",
-  "version": "$version$",
+  "name": "connection-string-demo",
+  "version": "1.0.0",
   "dependencies": {
-    $END$
+    "connection-string": "^2.4.4"
   }
 }

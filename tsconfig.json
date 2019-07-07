@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
+    "target": "es2016",
+    "resolveJsonModule": true
   },
   "exclude": [
     "node_modules"

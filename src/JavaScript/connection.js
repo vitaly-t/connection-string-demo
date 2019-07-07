@@ -1,5 +1,7 @@
 const ConnectionString = require('connection-string');
-const config = require('./config.json');
+
+// import dynamic or environment-dependent settings:
+const config = require('../config.json');
 
 function getConnection(passwordHash) {
     const hosts = config.hosts.map(ConnectionString.parseHost);
@@ -13,4 +15,6 @@ function getConnection(passwordHash) {
     return cs.toString({passwordHash});
 }
 
-console.log(getConnection());
+module.exports = {
+    getConnection
+};
