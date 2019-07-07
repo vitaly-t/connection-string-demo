@@ -3,7 +3,7 @@ import {ConnectionString} from 'connection-string';
 // import dynamic or environment-dependent settings:
 import * as config from '../config.json';
 
-export function getConnection(passwordHash?: boolean): string {
+export function getConnection(passwordHash?: boolean | string): string {
     const hosts = config.hosts.map(ConnectionString.parseHost);
     const params = {
         connectTimeoutMS: 5000,
