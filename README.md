@@ -22,8 +22,12 @@ For the sake of an example, in this demo we make the following assumptions, and 
 In your application the situation can be quite different, and even completely the other way round.
 But this demo shows you how to approach this, so you can figure out how to change it to fit your application's needs. 
 
-And you can always further complicate the approach. For example, you can make file [config.json] environment-dependent,
-and you can even implement re-loading it at run-time, to support dynamic connectivity changes, and so on.
+And you can always further complicate the approach, for example:
+
+* make file [config.json] environment-dependent;
+* reload [config.json] to support dynamic connectivity;
+* encrypt password and user name inside [config.json]
+* etc. 
 
 [config.json]:./src/config.json
 [connection-string]:https://github.com/vitaly-t/connection-string
