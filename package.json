@@ -2,6 +2,6 @@
   "name": "connection-string-demo",
   "version": "1.0.0",
   "dependencies": {
-    "connection-string": "^2.6.2"
+    "connection-string": "^2.7.0"
   }
 }
