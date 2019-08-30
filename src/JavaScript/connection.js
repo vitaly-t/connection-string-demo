@@ -1,4 +1,4 @@
-const ConnectionString = require('connection-string');
+const {ConnectionString} = require('connection-string');
 
 // import dynamic or environment-dependent settings:
 const config = require('../config.json');
