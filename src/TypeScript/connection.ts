@@ -12,7 +12,7 @@ import * as config from '../config.json';
 export function getConnection(passwordHash?: boolean | string): string {
     const hosts = config.hosts.map(ConnectionString.parseHost); // parsing hosts
 
-    // some static options, as supported by the driver:
+    // example of using some static options supported by the driver:
     const params = {
         connectTimeoutMS: 5000,
         replicaSet: 'myRepl',

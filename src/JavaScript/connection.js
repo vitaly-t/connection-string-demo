@@ -12,7 +12,7 @@ const config = require('../config.json');
 function getConnection(passwordHash) {
     const hosts = config.hosts.map(ConnectionString.parseHost); // parsing hosts
 
-    // some static options, as supported by the driver:
+    // example of using some static options supported by the driver:
     const params = {
         connectTimeoutMS: 5000,
         replicaSet: 'myRepl',

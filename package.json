@@ -1,7 +1,7 @@
 {
   "name": "connection-string-demo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "dependencies": {
-    "connection-string": "^3.0.3"
+    "connection-string": "^3.1.0"
   }
 }
