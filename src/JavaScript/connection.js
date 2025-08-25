@@ -7,7 +7,7 @@ const config = require('../config.json');
  * Generates and returns a connection string.
  *
  * @param [passwordHash]
- * Secures the password when connection string is for logging.
+ * Secures the password when the connection string is for logging.
  */
 function getConnection(passwordHash) {
     const hosts = config.hosts.map(ConnectionString.parseHost); // parsing hosts

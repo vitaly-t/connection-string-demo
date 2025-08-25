@@ -1,6 +1,6 @@
 # connection-string-demo
 
-It shows proper way of generating connection strings in a complex and secure environment, using [connection-string] library.
+It shows the proper way of generating connection strings in a complex and secure environment, using [connection-string] library.
 
 The demo offers two identical implementations:
 
@@ -15,7 +15,7 @@ When working with connections, you typically have part of the connection that's 
 
 For the sake of an example, in this demo we make the following assumptions, and then implement them:
 
-* You have an external/dynamic (or environment-dependent) list of hosts, plus user name and password.
+* You have an external/dynamic (or environment-dependent) list of hosts, plus username and password.
 * You know the driver/provider name, plus your database name is static.
 * You want to use all connection options statically.  
 
@@ -26,7 +26,7 @@ And you can always further complicate the approach, for example:
 
 * make file [config.json] environment-dependent;
 * reload [config.json] to support dynamic connectivity;
-* encrypt password and user name inside [config.json]
+* encrypt password and username inside [config.json]
 * etc. 
 
 [config.json]:./src/config.json

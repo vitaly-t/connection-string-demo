@@ -7,7 +7,7 @@ import * as config from '../config.json';
  * Generates and returns a connection string.
  *
  * @param [passwordHash]
- * Secures the password when connection string is for logging.
+ * Secures the password when the connection string is for logging.
  */
 export function getConnection(passwordHash?: boolean | string): string {
     const hosts = config.hosts.map(ConnectionString.parseHost); // parsing hosts

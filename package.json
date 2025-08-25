@@ -2,6 +2,9 @@
   "name": "connection-string-demo",
   "version": "1.2.0",
   "dependencies": {
-    "connection-string": "3.2.1"
+    "connection-string": "5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.2"
   }
 }
